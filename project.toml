@@ -1,7 +1,10 @@
-
 [project]
 name = "DateTime"
 version = "0.0.1"
 authors = ["Hexaredecimal"]
 edition = "2024"
+
+[imports]
+Time = "java.time.*"
+Formatter = "java.time.format.DateTimeFormatter"
 
